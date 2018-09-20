@@ -1,0 +1,36 @@
+{
+  "name": "di-guest-engine",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "array-union": "^1.0.2",
+    "async": "^2.6.0",
+    "bcrypt": "^1.0.3",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "deep-equal": "^1.0.1",
+    "express": "~4.15.5",
+    "express-validator": "^5.0.1",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.2.0",
+    "lodash": "^4.17.5",
+    "lodash.isequal": "^4.5.0",
+    "moment": "^2.21.0",
+    "mongoose": "^5.0.8",
+    "morgan": "~1.9.0",
+    "node-pre-gyp": "^0.6.39",
+    "nodemailer": "^4.6.2",
+    "passport": "*",
+    "passport-local-mongoose": "^5.0.0",
+    "serve-favicon": "~2.4.5",
+    "unix-time": "^1.0.1",
+    "unix-timestamp": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
